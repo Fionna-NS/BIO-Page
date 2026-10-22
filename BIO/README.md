@@ -1,16 +1,72 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, vibrant, and responsive personal portfolio website built with **App.jsx**, showcasing the professional background, technical skills, interests, and contact information of **Fionna Sibora**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* **Custom React Components:** Modular architecture utilizing functional components (`Introduction`, `Skills`, `Interests`, `Hoobies`, and `Contacts`).
+* **Vibrant & Modern Styling:** Custom CSS layout featuring a bold color palette, responsive design for mobile devices, and styled profile photo formatting.
+* **Comprehensive Overview:** Highlights both technical proficiencies (Python, JavaScript, React, SQL) and personal skills, alongside academic focus in Gender and Development Studies.
+* **Interactive Contact Section:** Direct access to professional email, phone number, and location details.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** App.jsx
+* **Styling:** CSS3 (Custom responsive design)
+* **Version Control:** Git & GitHub
+
+---
+
+## ⚙️ Getting Started & Installation
+
+To run this project locally on your machine, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+```
+
+### 2. Install dependencies
+
+Make sure you have [Node.js](https://nodejs.org/) installed, then run:
+
+```bash
+npm install
+
+```
+
+### 3. Run the development server
+
+```bash
+npm start
+
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+│   └── profile photo.jpg   # Profile picture asset
+├── App.jsx                 # Main component containing portfolio structure
+├── App.css                 # Custom styles and responsive media queries
+
+
+```
+
+---
+
+## 👩‍💻 Author
+
+**Fionna Sibora**
