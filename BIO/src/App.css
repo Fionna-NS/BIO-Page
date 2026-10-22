@@ -1,0 +1,102 @@
+/* General Reset and Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ff9306;
+  color: #d9fd0a;
+  line-height: 1.6;
+}
+
+/* Main Container Layout */
+div {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #803838;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+* Profile Photo Styling */
+img {
+  display: block;
+  margin: 0 auto 100px auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;  /* Crops the photo nicely inside the circle */
+  border: 4px solid #c937ee;
+  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2);
+}
+/* Headings */
+h2 {
+  font-size: 1.8rem;
+  color: #fcf802;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #f11094;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  color: #e019c6;
+  margin-bottom: 15px;
+}
+
+/* Lists (Skills, Hobbies, Contacts) */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 1rem;
+  color: #0deccff8;
+  margin-bottom: 8px;
+}
+
+/* Introduction Component Specific Styling */
+div > h2:first-of-type {
+  text-align: center;
+  border-bottom: none;
+  margin-bottom: 5px;
+  color: #ebd50efb;
+}
+
+div > div > p {
+  text-align: center;
+  font-style: italic;
+  color: #0be4c0;
+  margin-bottom: 25px;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+  div {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
